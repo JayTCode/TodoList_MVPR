@@ -7,12 +7,12 @@
 
 import Foundation
 
-enum Category: String, CaseIterable {
+enum Category: String {
     case personal = "Personal"
     case work = "Work"
     case errands = "Errands"
     case shopping = "Shopping"
     case fun = "Fun"
-    case fam = "Family"
+    case family = "Family"
     case misc = "Miscellaneous"
 }
