@@ -14,7 +14,6 @@
 		770460F52A170A450027187E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770460F42A170A450027187E /* Category.swift */; };
 		771CF9302A2F777E00BCB925 /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CF92F2A2F777E00BCB925 /* SortType.swift */; };
 		773001B02A4917B400E9AC7D /* UIAlertActionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773001AF2A4917B400E9AC7D /* UIAlertActionMock.swift */; };
-		7785F32E2A48DE9E00B8E09F /* TodoListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785F32D2A48DE9E00B8E09F /* TodoListViewControllerTests.swift */; };
 		7785F3302A48E2A000B8E09F /* TodoListViewPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785F32F2A48E2A000B8E09F /* TodoListViewPresenterMock.swift */; };
 		779502292A2A62AD00DA3FD0 /* TodoListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779502282A2A62AD00DA3FD0 /* TodoListViewPresenter.swift */; };
 		7795022B2A2A62B900DA3FD0 /* TodoListEntryViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795022A2A2A62B900DA3FD0 /* TodoListEntryViewPresenter.swift */; };
@@ -66,7 +65,6 @@
 		771CF92F2A2F777E00BCB925 /* SortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortType.swift; sourceTree = "<group>"; };
 		771E62692A3A1E0F00CB81B3 /* TodoList_MVPRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoList_MVPRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		773001AF2A4917B400E9AC7D /* UIAlertActionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertActionMock.swift; sourceTree = "<group>"; };
-		7785F32D2A48DE9E00B8E09F /* TodoListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewControllerTests.swift; sourceTree = "<group>"; };
 		7785F32F2A48E2A000B8E09F /* TodoListViewPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewPresenterMock.swift; sourceTree = "<group>"; };
 		779502282A2A62AD00DA3FD0 /* TodoListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewPresenter.swift; sourceTree = "<group>"; };
 		7795022A2A2A62B900DA3FD0 /* TodoListEntryViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListEntryViewPresenter.swift; sourceTree = "<group>"; };
@@ -164,18 +162,9 @@
 			children = (
 				77023AC72A3CA9920028B229 /* RouterTests */,
 				77023AB92A3BC90E0028B229 /* PresenterTests */,
-				7785F32C2A48DE7B00B8E09F /* ViewControllerTests */,
 				77023AC02A3BCE840028B229 /* Mocks */,
 			);
 			path = TodoList_MVPRTests;
-			sourceTree = "<group>";
-		};
-		7785F32C2A48DE7B00B8E09F /* ViewControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				7785F32D2A48DE9E00B8E09F /* TodoListViewControllerTests.swift */,
-			);
-			path = ViewControllerTests;
 			sourceTree = "<group>";
 		};
 		77982C302A12E0FA0094D3E4 = {
@@ -417,7 +406,6 @@
 				77B07B092A3DFE6C00010B83 /* DetailTodoListViewPresenterTests.swift in Sources */,
 				779FC3F92A3DF52E00ECDBAD /* LoginViewPresenterTests.swift in Sources */,
 				779FC3F62A3D516400ECDBAD /* TodoListViewPresenterTests.swift in Sources */,
-				7785F32E2A48DE9E00B8E09F /* TodoListViewControllerTests.swift in Sources */,
 				77023ACB2A3CC9D70028B229 /* Mocks.swift in Sources */,
 				7785F3302A48E2A000B8E09F /* TodoListViewPresenterMock.swift in Sources */,
 			);
